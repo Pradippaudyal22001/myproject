@@ -1,0 +1,129 @@
+.button-box{
+    display: flex;
+   gap: 1rem;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.container{
+    
+   background-image: url(/images/login-page.png);
+    color: white;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.login-button {
+    background-color: rgb(89, 91, 91);
+    font-size: 1.3rem;
+   
+    
+    color: white;
+    text-align: center;
+    flex: 999;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+  
+}
+
+.back-button {
+    background-color: rgb(89, 91, 91);
+    font-size: 1.3rem;
+    border-radius: 3px;
+    border-color: solid white 2px;
+    color: white;
+    width: 200px;
+    height: 50px;
+text-align: center;
+    flex: 999;
+    flex-direction: left;
+
+}
+
+.login-button:hover {
+    background-color: transparent;
+    transition: 1s;
+}
+
+.back-button:hover {
+    background-color: transparent;
+    transition: 1s;
+}
+
+label {
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   padding: 2rem;
+   
+
+}
+#checkbox{
+    background-color: white;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: larger;
+}
+
+
+input {
+    padding: 0.6rem 0rem;
+    color: black;
+    border: 2px solid black;
+    font-size: large;
+    background-color: grey;
+    border-style: hidden;
+    flex-direction: row;
+   
+   
+
+}
+
+.login-page {
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+   
+    
+}
+
+.login-box {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-msg {
+    display: none;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+
+    padding: 2rem;
+
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: black;
+
+    background-color: rgb(176, 173, 174);
+    opacity: calc(40%);
+}
+
+.error-msg.show {
+    display: block;
+}

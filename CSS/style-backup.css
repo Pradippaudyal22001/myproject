@@ -1,0 +1,104 @@
+.nav-bar {
+    /* For Float */
+    overflow: auto;
+    text-align: center;
+
+    background-color: rgba(11, 10, 10, 0.137);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 56px;
+}
+
+.link {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 1rem;
+    display: inline block;
+}
+
+body {
+    margin: 0;
+    /* background-color: black; */
+    color: black;
+}
+
+.search-icon {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.sigh-in-icon {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    display: inline-block;
+}
+
+.body {
+    background-image: url(/practice/beach.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.list {
+    color: blue;
+    font-style: oblique;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-wrapper {
+    overflow: scroll;
+    width: 20%;
+    height: calc(100vh - 56px);
+    background-color: lightgray;
+    /* float: left; */
+    position: fixed;
+    top: 56px;
+}
+
+.rightwrapper {
+    width: 80%;
+    overflow: scroll;
+
+    height: calc(100vh - 56px);
+    float: right;
+}
+
+.rightwrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.list-item {
+    padding: 0.30rem 1rem;
+}
+
+.list-item:hover {
+    background-color: lightgrey;
+}
+
+.list-item:hover {
+    background-color: aqua;
+}
+
+.search-input {
+    height: 3rem;
+    width: 90%;
+    text-align: center;
+}

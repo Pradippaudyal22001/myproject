@@ -1,0 +1,111 @@
+body {
+    background-image: url(../images/price.jfif );
+    width: 100%;
+    height: 548px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.total-amt {
+    display: flex;
+    /* background-color: #000000; */
+    /* height: 30vh; */
+    flex-direction: row;
+    color: #d18710;
+    padding: 1rem;
+    font-weight: bold;
+    
+}
+.total-amt>p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    border: 2px solid #7a7979;
+    background-color: #ca9b52;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+
+.people {
+    display: flex;
+    flex: 3;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    flex: 2;
+    gap: .7rem;
+    align-items: center;
+}
+
+.price>input {
+    height: 1rem;
+}
+
+.price>label {
+    display: inline-block;
+    bottom: 50%;
+
+}
+
+.calculate-button {
+    flex: 1;
+    color: black;
+    padding: .7rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+
+
+}
+
+.calculate-button>input {
+    padding-right: 3rem;
+
+}
+
+input {
+    background-color: #ca9b52;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    border: 2px solid #7a7979;
+}
+
+.note>p{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-left: 2rem;
+    border: 2px solid #ca9b52;
+    color: #d18710;
+    text-align: center;
+}
+span{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    padding: 2rem 5rem;
+    
+}
+.back-button-div {
+    text-align: center;
+    
+    margin-top: 2rem;
+}
+
+.back-button {
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #ca9b52;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    padding: .5rem 1rem;
+}
