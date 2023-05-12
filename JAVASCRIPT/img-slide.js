@@ -1,11 +1,15 @@
 var responsiveImage = [{
-    src: 'screen-pic/slide-01.jpg'
+    // src: 'screen-pic/slide-01.jpg'
+    src: 'https://github.com/Pradippaudyal22001/myproject/blob/master/screen-pic/slide-01.JPG?raw=true'
 }, {
-    src: 'screen-pic/slide-02.jpg'
+    // src: 'screen-pic/slide-02.jpg'
+    src: 'https://github.com/Pradippaudyal22001/myproject/blob/master/screen-pic/slide-02.jpg?raw=true'
 }, {
-    src: 'screen-pic/slide-03.jpg'
+    // src: 'screen-pic/slide-03.jpg'
+    src: 'https://github.com/Pradippaudyal22001/myproject/blob/master/screen-pic/slide-03.jpg?raw=true'
 }, {
-    src: 'screen-pic/slide-04.jpg'
+    // src: 'screen-pic/slide-04.jpg'
+    src: 'https://github.com/Pradippaudyal22001/myproject/blob/master/screen-pic/slide-04.jpg?raw=true'
 }];
 
 $('#silde-img').vegas({
