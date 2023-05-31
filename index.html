@@ -22,9 +22,9 @@
     <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
 </head>
 
-<body>
+<body id="top">
 
-    
+
     <div class="ring" id="ring">
         <div class="load">
         </div>
@@ -33,24 +33,29 @@
 
     <div class="nav-bar" id="nav-bar">
 
-        <div class="nav-left"> <a href="" class="logo"> <img src="places-image/image-removebg-preview.png" alt=""></a>
+        <div class="nav-left">
+            <a href="" class="logo"> <img src="places-image/image-removebg-preview.png" alt=""></a>
+            <i class="bi bi-list" onclick="showHideMenu()"></i>
         </div>
+        
+        <div class="header-right" id="header-right">
+            <div class="header">
+                <a href="#top" class="link">Home</a>
+                <a href="#service" class="link">Services</a>
+                <a href="#info" class="link">Information</a>
+                <a href="#contact-us" class="link">Contact us</a>
+                <a href="image.html" class="link">Gallery</a>
+            </div>
 
-        <div class="header">
-            <a href="" class="link">Home</a>
-            <a href="#service" class="link">Services</a>
-            <a href="#info" class="link">Information</a>
-            <a href="#contact-us" class="link">Contact us</a>
-            <a href="image.html" class="link">Gallery</a>
-        </div>
+            <div class="nav-right">
+                <i class="bi bi-moon" style="color: white;background-color: black;border: none;" id="nightmode-id"
+                    onclick="nightmode()"></i>
+                <i class="bi bi-brightness-high"
+                    style="color: white;background-color: black;border: none; padding: 1rem;" id="daymode-id"
+                    onclick="daymode()"></i>
 
-        <div class="nav-right">
-            <i class="bi bi-moon" style="color: white;background-color: black;border: none;" id="nightmode-id"
-                onclick="nightmode()"></i>
-            <i class="bi bi-brightness-high" style="color: white;background-color: black;border: none; padding: 1rem;"
-                id="daymode-id" onclick="daymode()"></i>
-
-            <a href="explore-sign.html" class="sigh-in-icon">Sigh In</a>
+                <a href="explore-sign.html" class="sigh-in-icon">Sigh In</a>
+            </div>
         </div>
     </div>
 
@@ -63,10 +68,7 @@
                 Ghumphir <img src="images/Hiking2-removebg-preview.png" alt="">
             </h1>
             <h4><span>Smile</span> Fun <span>Smile</span></h4>
-            <div class="search-place">
-                <input type="search" placeholder="Search Places Here " name="search" id="searchplace"
-                    class="search-input">
-            </div>
+           
 
             <div id="silde-img"></div>
         </div>
@@ -82,7 +84,6 @@
 
     <div class="service-items-box">
         <div class="title">
-
             <div class="ser-title family">
                 <h5 class="paragraph"><span>Family</span> Package</h5>
 
@@ -91,31 +92,29 @@
 
                     with cheapest price and best facilities.</div>
 
-                <p style="text-align: center;"><a class="button" href="">Read More</a></p>
+                <!-- <p style="text-align: center;"><a class="button" href="">Read More</a></p> -->
             </div>
         </div>
 
         <div class="title">
-
             <div class="ser-title friends">
                 <h5 class="paragraph"><span>Friends</span> Package</h5>
                 <div class="discribition">Enjoy the trip with family
                     with cheapest price and best facilities.</div>
                 <p style="text-align: center ">
-                    <a class="button" href="">Read More</a></p>
+                    <!-- <a class="button" href="">Read More</a></p> -->
             </div>
         </div>
-        <div class="title">
 
+        <div class="title">
             <div class="ser-title couple ">
                 <h5 class="paragraph"><span>Couple</span> Package</h5>
                 <div class="discribition">Enjoy the trip and spend time with each other
                     with cheapest price and best facilities.</div>
                 <p style="text-align: center ">
-                    <a class="button" href="">Read More</a></p>
+                    <!-- <a class="button" href="">Read More</a></p> -->
             </div>
         </div>
-
     </div>
 
 
@@ -163,7 +162,7 @@
                 <h5>Guide-2</h5>
 
 
-                <img src="images/sushan.jfif" alt="">
+                <img src="images/sushan.jpg" alt="">
                 <div class="discribition-guide">
                     <span>Sushan Kattle </span> <br>
                     <i>Mechanical engineer/Photographer <br>
@@ -230,7 +229,7 @@
     </div>
     <hr>
     <div class="trnd-places">
-        <p>Trending placess</p>
+        <p class="info-bold">Trending placess</p>
 
     </div>
     <div class="trending-place">
@@ -255,7 +254,7 @@
     <hr>
     <div class="categories">
 
-        <p>Categories</p>
+        <p class="info-bold">Categories</p>
     </div>
     <div class="categories-text-bar">
         <div class="categories-list"><a href="">Adventure</a></div>
@@ -268,7 +267,7 @@
     </div>
     <div class="contact-us" id="contact-us">
         <div class="contact">
-            <p>Contact Us</p>
+            <p class="info-bold">Contact Us</p>
         </div>
         <hr>
 
@@ -278,8 +277,8 @@
                 help.</p> <br>
 
 
-                <p style="font-size: 17px; letter-spacing: .5px; color: white; margin: 0px 0px 15px;">Please feel free to
-                    email us at Ghumphir@gmail.com or message us on facebook,<br>
+            <p style="font-size: 17px; letter-spacing: .5px; color: white; margin: 0px 0px 15px;">Please feel free to
+                email us at Ghumphir@gmail.com or message us on facebook,<br>
                 instagram
                 directly. Additionally, you can fill out the following form if you any other questions.</p>
 
@@ -314,10 +313,10 @@
         </div>
 
 
-        <div class="tnk-msg"> <span>Thank You For Visiting Us</span>
-            <!DOCTYPE html>!!!</footer>
-            <footer><span style="font-size: 3rem;">ありがとうございます。</span></footer>
-            <footer><span style="font-size: 3rem;">धन्यवाद!!</span>
+        <div class="tnk-msg"> <span>Thank You For Visiting Us ! <i class="bi bi-emoji-smile"></i></span>
+
+            <footer><span>ありがとうございます。</span></footer>
+            <footer><span>धन्यवाद!!</span>
         </div>
 
     </div>
@@ -379,6 +378,7 @@
     <script src="JAVASCRIPT/explore.js"></script>
     <!-- <script src="welcome.js"></script> -->
     <script src="JAVASCRIPT/cash-calculation.js"></script>
+    <script src="JAVASCRIPT/Show-hideMenu.js"></script>
 </body>
 
 </html>
