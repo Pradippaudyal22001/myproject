@@ -17,11 +17,11 @@
     font-size: 3rem;
     font-weight: bold;
 }
-
+/* image html css starts */
 .images {
     display: flex;
     flex-direction: row;
-
+background-color: black;
     flex-wrap: wrap;
 
     justify-content: center;
@@ -31,10 +31,25 @@
 
 .images>div {
     flex: 0 0 30%;
+    display: flex;
+   
+   
 }
 
 .images>div>img {
     width: 100%;
+    margin: 1rem;
+    opacity: .5;
+    flex: 1;
+    filter: brightness(100%) saturate(100%);
+    
+}
+.images>div>img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border-radius: 10px;
+    opacity: 1;
+    
 }
 
 

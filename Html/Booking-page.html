@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking-page</title>
+  <link rel="stylesheet" href="/CSS/Bookingpage.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Book Your Adventure with Ghumphir</h1>
+    <form id="bookingForm">
+      <label for="fromDate">From:</label>
+      <input type="date" id="fromDate" required>
+
+      <label for="toDate">To:</label>
+      <input type="date" id="toDate" required>
+
+      <label for="package">Package:</label>
+      <select id="package" required>
+        <option value="">Select Package</option>
+        <option value="family">Family Package</option>
+        <option value="friends">Friends Package</option>
+        <option value="couple">Couple Package</option>
+
+      </select>
+      <label for="place">Place</label>
+      <select id="place" required>
+        <option value="">Select Place</option>
+        <option value="">Pokhara</option>
+        <option value="">Mustang</option>
+        <option value="">Ilam</option>
+        <option value="">Custom</option>
+
+
+      </select>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+
+  <script>
+    function handleFormSubmit(event) {
+      event.preventDefault();
+
+
+      const fromDate = document.getElementById("fromDate").value;
+      const toDate = document.getElementById("toDate").value;
+      const package = document.getElementById("package").value;
+      const place = document.getElementById("place").value;
+
+
+      // Display a success message
+      alert("Booking successful!");
+
+      // Reset the form
+      document.getElementById("bookingForm").reset();
+    }
+
+    // Add event listener to the form's submit event
+    document.getElementById("bookingForm").addEventListener("submit", handleFormSubmit);
+  </script>
+</body>
+
+</html>
